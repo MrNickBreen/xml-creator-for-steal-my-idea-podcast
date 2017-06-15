@@ -1,0 +1,12 @@
+This script generates XML to paste into the steal my idea feed.xml
+The podcast you want to upload must be in this folder with the name you specify in the first argument (filename). Ex: e61-education.mp3
+
+Must call this python script with 4 parameters: filename, title, subtitle, and description
+This script figures out the date, filesize and length.
+
+Run these commands first:
+pip install eyed3
+pip install pathlib
+
+example useage:
+python main.py "e61-education.mp3" "Education" "We hope you learn something with this weeks episode" "learn to cook packets, youtube voice commands, mobile lecture clicker, and survey of experts for top skills in field"
